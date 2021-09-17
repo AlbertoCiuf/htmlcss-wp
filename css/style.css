@@ -24,7 +24,6 @@ body {
 /* HEADER */
 header {
   height: 100px;
-  /* background-color: #E579E6; */
 }
 
 .logo-img {
@@ -94,7 +93,6 @@ aside, section {
 }
 
 .main-content .main-elements {
-  /* background-color: #AACFE7; */
   margin-top: 2%;  
   margin-bottom: 1%; 
 }
@@ -135,35 +133,30 @@ div .top-text p {
   border-radius: 15px;
 }
 
-.right-image h3, .right-image p, .left-image h3, .left-image p, .mid-image h3, .mid-image p {
+.right-content h3, .right-content p, .left-content h3, .left-content p, .mid-content h3, .mid-content p {
   font-size: 20px;
   padding-top: 15px;
 }
 
-.right-image p, .mid-image p, .left-image p {
+.right-content p, .mid-content p, .left-content p {
   color: #9F9F9F;
 }
 
-/* Altezza minima volutamente ripetuta nelle tre classi poiché provvisoria */
 .left-bar {
-  min-height: 700px;
   width: 20%;
 }
 
 .main-section {
-  min-height: 700px;
   width: 56%;
   margin: 0 2%;
 }
 
 .right-bar {
-  min-height: 700px;
   width: 20%;
 }
 
 /* FOOTER */
 .footer-content {
-  /* background-color:#8801FF; */
   height: 70px;
   margin: 15px 0;
 }
