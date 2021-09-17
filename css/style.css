@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   
 }
@@ -90,17 +90,18 @@ nav li a:hover, nav li a:active {
 
 
 /* MAIN */
-.main-content {
+
+/* .main-content {
   background-color: #2686FF;
-  /* min-height: 840px; */
-}
+  min-height: 840px;
+} */
 
 aside, section {
   float: left;
 }
 
 .main-content .main-elements {
-  background-color: #AACFE7;
+  /* background-color: #AACFE7; */
   margin-top: 2%;  
   margin-bottom: 1%; 
 }
@@ -118,8 +119,8 @@ div .top-text p {
 }
 
 .left-image {
-  background-image: url('/img/img-1.jpg');
-  height: 270px;
+  background-image: url('../img/img-1.jpg');
+  height: 240px;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
@@ -130,13 +131,48 @@ div .top-text p {
   padding-top: 15px;
 }
 
-.left-image p {
+.left-image p, mid-image p {
+  color: #9F9F9F;
+}
+
+.mid-image {
+  background-image: url('../img/banner-2.jpg');
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px; 
+}
+  
+
+.mid-image h3, .mid-image p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.mid-image p {
+  color: #9F9F9F;
+}
+
+.right-image {
+  background-image: url('../img/img-3.jpg');
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.right-image h3, .right-image p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.right-image p {
   color: #9F9F9F;
 }
 
 /* Altezza minima volutamente ripetuta nelle tre classi poiché provvisoria */
 .left-bar {
-  /* min-height: 700px; */
+  min-height: 700px;
   width: 20%;
 }
 
