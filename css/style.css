@@ -69,7 +69,6 @@ nav li a:hover, nav li a:active {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-
 }
 
 .jumbotron h3, .jumbotron p {
@@ -80,7 +79,7 @@ nav li a:hover, nav li a:active {
 
 .jumbotron h3 {
   font-size: 28px;
-  padding-top: 15%;
+  padding-top: 20%;
 }
 
 .jumbotron p {
@@ -90,12 +89,6 @@ nav li a:hover, nav li a:active {
 
 
 /* MAIN */
-
-/* .main-content {
-  background-color: #2686FF;
-  min-height: 840px;
-} */
-
 aside, section {
   float: left;
 }
@@ -126,15 +119,6 @@ div .top-text p {
   border-radius: 15px;
 } 
 
-.left-image h3, .left-image p {
-  font-size: 20px;
-  padding-top: 15px;
-}
-
-.left-image p, mid-image p {
-  color: #9F9F9F;
-}
-
 .mid-image {
   background-image: url('../img/banner-2.jpg');
   height: 240px;
@@ -143,16 +127,6 @@ div .top-text p {
   border-radius: 15px; 
 }
   
-
-.mid-image h3, .mid-image p {
-  font-size: 20px;
-  padding-top: 15px;
-}
-
-.mid-image p {
-  color: #9F9F9F;
-}
-
 .right-image {
   background-image: url('../img/img-3.jpg');
   height: 240px;
@@ -161,12 +135,12 @@ div .top-text p {
   border-radius: 15px;
 }
 
-.right-image h3, .right-image p {
+.right-image h3, .right-image p, .left-image h3, .left-image p, .mid-image h3, .mid-image p {
   font-size: 20px;
   padding-top: 15px;
 }
 
-.right-image p {
+.right-image p, .mid-image p, .left-image p {
   color: #9F9F9F;
 }
 
@@ -189,7 +163,16 @@ div .top-text p {
 
 /* FOOTER */
 .footer-content {
-  background-color:#8801FF;
+  /* background-color:#8801FF; */
   height: 70px;
   margin: 15px 0;
+}
+
+footer h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer h3 span {
+  color: red;
 }
