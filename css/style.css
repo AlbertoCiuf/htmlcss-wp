@@ -1,0 +1,74 @@
+/* GlOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  
+}
+
+/* HEADER */
+header {
+  height: 100px;
+  background-color: #E579E6;
+}
+
+.jumbotron {
+  height: 300px;
+  margin: 20px 0;
+  background-color: #E1D67A;
+}
+
+/* MAIN */
+.main-content {
+  background-color: #2686FF;
+  /* min-height: 840px; */
+}
+
+aside, section {
+  float: left;
+}
+
+.main-content .main-elements {
+  background-color: #AACFE7;
+  margin-top: 2%;  
+  margin-bottom: 1%; 
+}
+
+.top-text {
+  height: 70px;
+}
+
+/* Altezza minima volutamente ripetuta nelle tre classi poiché provvisoria */
+.left-bar {
+  min-height: 700px;
+  width: 20%;
+}
+
+.main-section {
+  min-height: 700px;
+  width: 56%;
+  margin: 0 2%;
+}
+
+.right-bar {
+  min-height: 700px;
+  width: 20%;
+}
+
+/* FOOTER */
+.footer-content {
+  background-color:#8801FF;
+  height: 70px;
+  margin: 15px 0;
+}
